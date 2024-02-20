@@ -9,7 +9,10 @@ document.getElementById('btn3').addEventListener('click', function() {
     document.querySelector('.popular').style.display = 'flex';
 });
 
-
+function toggleMenu() {
+    var menu = document.querySelector('nav ul');
+    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+  }
 
 function goToTop() {
     document.body.scrollTop = 0; 

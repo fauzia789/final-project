@@ -528,11 +528,17 @@ footer hr {
         font-weight: 800;
 
     }
-
     nav ul {
-
         display: none;
-    }
+        position: absolute;
+        top: 30px; 
+        left: 300px;
+        background-color: rgba(211, 211, 211, 0.8);
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      
+ 
     .hamburger-menu {
         display: block; 
     }

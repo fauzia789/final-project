@@ -10,6 +10,31 @@ p {
     ;
 }
 
+#visitorCount {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color:lightgray;
+   
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+#goToTopBtn:hover {
+    background-color: #0056b3;
+}
 
 #hidden{
     display: none;

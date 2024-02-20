@@ -67,8 +67,8 @@
       </div>
     </header>
     <main>
-      <section class="popular" >
-        <div class="popular-container">
+      <section class="popular" id="popular-deals" >
+        <div class="popular-container" >
           <h3 class="nav-title" id="popular-title">Our Popular Tours</h3>
           <p class="popular-description">
             We provide incredible trips that create lasting memories. Come with
@@ -99,7 +99,7 @@
             places; they're about being part of stories and having adventures
             that make each journey special.
           </p>
-          <button class="btn-primary" id="read-btn">Read More</button>
+          <button onclick="play()" class="btn-primary" id="read-btn">Read More</button>
         </div>
         <div class="popular-img">
           <img src="Images/Rectangle 4.png" alt="" />
@@ -378,7 +378,7 @@
         </div>
         <div class="purple"><p class="purple">See More<i class="fa-solid fa-arrow-right"></i></p></div>
       </section> -->     
-      <section class="places"  >
+      <section class="places" id="hidden">
         <div class="place-container">
           <div class="place-content">
             <h1 class="nav-title" id="place-title">
@@ -467,5 +467,7 @@
       <hr />
       <p>2017, All Rights Reserved.</p>
     </footer>
+   
+    <script src="script.js"></script>
   </body>
 </html>
